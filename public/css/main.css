@@ -2,11 +2,15 @@
   01. Variables
   02. Reveal animations
 -------------------------------------------------------------------- */
+.btn-green {
+  background-color: var(--accent-color);
+}
 .ratio {
   position: relative;
   display: block;
   overflow: hidden;
 }
+
 
 .ratio::before {
   display: block;
@@ -187,9 +191,9 @@
 }
 
 :root {
-  --accent-color: #0044EB;
+  --accent-color: #168268;
   --light-accent-color: #E5ECFD;
-  --dark-accent-color: #3B59D4;
+  --dark-accent-color: #168268;
   --teal-color: #39C1FF;
   --light-purple-color: #F0EFFF;
   --purple-color: #615EF6;
